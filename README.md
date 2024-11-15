@@ -45,16 +45,16 @@ This is a web-based Event Management System designed for an event management com
 ```
 event-management-system/
 │
-├── index.html                # Homepage with Admin and Customer login options
+├── index.php                 # Homepage with Admin and Customer login options
 ├── admin-login.html          # Admin login page
 ├── admin-register.html       # Admin registration page
 ├── admin-dashboard.php       # Admin dashboard
-├── register.html             # Customer registration page
-├── login.html                # Customer login page
-├── dashboard.html            # Customer dashboard
+├── registerpage.php          # Customer registration page
+├── login-page.php            # Customer login page
+├── dashboard.php             # Customer dashboard
 ├── events.php                # Customer events page
 ├── booking-form.php          # Customer booking form
-├── my-bookings.html          # Customer bookings page
+├── my-bookings.php           # Customer bookings page
 ├── view-users.php            # Admin view users page
 ├── view-events.php           # Admin manage events page
 ├── create-event.php          # Admin create event page
@@ -76,9 +76,6 @@ event-management-system/
 │   ├── delete-booking.php    # Booking deletion logic
 │   ├── admin-logout.php      # Admin logout
 │   ├── logout.php            # Customer logout
-│
-├── db/
-│   ├── database.sql          # SQL script for creating the database and tables
 │
 ├── icons/                    # Icons for the homepage
 │   ├── admin-icon.png        # Icon for Admin login card
@@ -168,7 +165,7 @@ CREATE TABLE bookings (
 ### 3. Import the Database
 1. Open [phpMyAdmin](http://localhost/phpmyadmin/) in your browser.
 2. Create a new database named `event_management`.
-3. Import the `database.sql` file located in the `db/` folder.
+3. Run above queries to create tables.
 
 ---
 
@@ -220,10 +217,10 @@ Navigate to `admin-login.html` and log in with your admin credentials.
 ## Customer Functionality
 
 ### 1. Register as Customer
-Navigate to `register.html` to register as a customer.
+Navigate to `registerpage.php` to register as a customer.
 
 ### 2. Login as Customer
-Navigate to `login.html` and log in with your customer credentials.
+Navigate to `login-page.php` and log in with your customer credentials.
 
 ### 3. Book Events
 - View available events and click **Book Now** to book an event.
