@@ -1,0 +1,258 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #4a90e2;
+}
+
+form label, nav ul {
+    margin: 10px 0 5px;
+}
+
+form input, form button, table {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background: #4a90e2;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background: #367bbd;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #367bbd;
+}
+/* Event Cards Container */
+.event-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Individual Event Card */
+.event-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Event Card Hover Effect */
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Event Card Heading */
+.event-card h2 {
+    color: #4a90e2;
+    margin: 10px 0;
+}
+
+/* Event Card Paragraph */
+.event-card p {
+    color: #666;
+    margin: 10px 0;
+}
+
+/* Book Now Button */
+.event-card .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+}
+
+/* Button Hover Effect */
+.event-card .btn:hover {
+    background: #367bbd;
+}
+/* Homepage Container */
+.homepage-container {
+    text-align: center;
+    padding: 50px;
+    background: #f0f4f8;
+}
+
+/* Page Title */
+.homepage-container h1 {
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+/* Login Cards Container */
+.login-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Individual Login Card */
+.login-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Card Hover Effect */
+.login-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Icon */
+.card-icon {
+    margin-bottom: 15px;
+}
+
+.card-icon .icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* Card Heading */
+.login-card h2 {
+    color: #4a90e2;
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+/* Card Description */
+.login-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Button */
+.login-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+}
+
+/* Button Hover Effect */
+.login-card .btn:hover {
+    background: #367bbd;
+}
+/* General Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+/* Home Button Container */
+.home-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Home Button Styling */
+.home-button a {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover Effect */
+.home-button a:hover {
+    background: #367bbd;
+    transform: translateY(-3px);
+}
+
+/* Home Icon Styling */
+.home-button .home-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
