@@ -155,7 +155,12 @@ CREATE TABLE bookings (
 
 ### 2. Clone or Download the Project
 1. Clone the repository or download it as a ZIP file.
-2. Place the project folder in the `htdocs` directory of your XAMPP installation:
+   - To Clone:
+   copy this and run in your terminal or cmd
+   ```
+   git clone https://github.com/Dhanithya-Beligolla/event-reservation-management-system.git
+   ```
+3. Place the project folder in the `htdocs` directory of your XAMPP installation:
    ```
    C:/xampp/htdocs/event-management-system/
    ```
