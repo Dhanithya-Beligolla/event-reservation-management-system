@@ -24,6 +24,7 @@
 
             <button type="submit">Register</button>
         </form>
+        <p>Do you have an account? <a href="login-page.php">Login here</a>.</p>
     </div>
 </body>
 </html>

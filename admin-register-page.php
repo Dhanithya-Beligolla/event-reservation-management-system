@@ -21,6 +21,7 @@
 
             <button type="submit">Register as Admin</button>
         </form>
+        <p>Do you have an account? <a href="admin-login-page.php">Login here</a>.</p>
     </div>
 </body>
 </html>
