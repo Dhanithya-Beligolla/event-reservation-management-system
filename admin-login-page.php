@@ -23,7 +23,7 @@
 
             <button type="submit">Login as Admin</button>
         </form>
-        <p>Don't have an account? <a href="admin-register.html">Register here</a>.</p>
+        <p>Don't have an account? <a href="admin-register-page.php">Register here</a>.</p>
     </div>
 </body>
 </html>

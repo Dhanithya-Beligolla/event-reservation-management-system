@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO admins (username, email, password) VALUES ('$username', '$email', '$password')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: ../admin-login.html");
+        header("Location: ../admin-login-page.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }

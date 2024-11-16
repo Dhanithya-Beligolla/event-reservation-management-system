@@ -17,7 +17,7 @@
                 </div>
                 <h2>Login as Admin</h2>
                 <p>Manage events, users, and bookings.</p>
-                <a href="admin-login.html" class="btn">Admin Login</a>
+                <a href="admin-login-page.php" class="btn">Admin Login</a>
             </div>
 
             <!-- Login as Customer Card -->
