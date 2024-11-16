@@ -199,10 +199,10 @@ CREATE TABLE bookings (
 ## Admin Functionality
 
 ### 1. Register as Admin
-Navigate to `admin-register.html` to register a new admin account.
+Navigate to `admin-register-page.php` to register a new admin account.
 
 ### 2. Login as Admin
-Navigate to `admin-login.html` and log in with your admin credentials.
+Navigate to `admin-login-page.php` and log in with your admin credentials.
 
 ### 3. Manage Events
 - Navigate to the **Admin Dashboard**.
