@@ -46,8 +46,8 @@ This is a web-based Event Management System designed for an event management com
 event-management-system/
 │
 ├── index.php                 # Homepage with Admin and Customer login options
-├── admin-login.html          # Admin login page
-├── admin-register.html       # Admin registration page
+├── admin-login-page.php      # Admin login page
+├── admin-register-page.php   # Admin registration page
 ├── admin-dashboard.php       # Admin dashboard
 ├── registerpage.php          # Customer registration page
 ├── login-page.php            # Customer login page
