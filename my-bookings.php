@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+    <div class="container">
         <nav>
             <ul>
                 <li><a href="dashboard.php">Dashboard</a></li>
@@ -14,7 +16,6 @@
                 <li><a href="php/logout.php">Logout</a></li>
             </ul>
         </nav>
-    <div class="container">
         <h1>My Bookings</h1>
         <table>
             <thead>
